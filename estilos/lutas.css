@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #241E20;
+  color: #fff;
+  padding: 1rem;
+}
+
+header > h1 {
+  font-family: "Honk", system-ui;
+  font-size: 2.2em;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header > a {
+    float: left; 
+    margin-left: 80px;
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: #FDDE0A;
+    padding: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+}
+
+header > a:hover {
+    background-color: #fddd0abf;
+    color: rgba(255, 255, 255, 0.715);
+    transition: ease 0.5s;
+    border-radius: 7px;
+}
+
+.contato {
+    background-color: #FDDE0A;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fundo {
+    background-image: url(../imagens/fundo2.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main {
+    background-color: rgba(0, 0, 0, 0.774);
+    max-width: 80%;
+    margin: auto;
+}
+
+main > div {
+    padding: 10px;
+}
+
+.titulos {
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(../imagens/fundo_onepiece.webp);
+    padding: 10px;
+    width: 92%;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px #00000077;
+    margin: auto;
+}
+
+.apresentacao {
+    width: 90%;
+    margin: auto;
+    color: white;
+    line-height: 1.4em;
+    font-size: 1.05em;
+}
+
+main > p {
+    text-align: justify;
+    margin: 20px;
+    width: 95%;
+    margin: auto;
+}
+
+footer {
+    background-color: #241E20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 660px) {
+  header > a {
+    padding: 9px;
+  }
+
+  header > h1 {
+    font-size: 1.8em;
+    padding-top: 10px;
+  }
+  
+  a > img {
+    width: 20px;
+    height: 20px;
+  }
+  li {
+    width: 150px;
+    height: 170px;
+  }
+
+  li > img {
+    width: 120px;
+    height: 90px;
+  }
+
+  .fruta h2 {
+    width: auto;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  
+}
