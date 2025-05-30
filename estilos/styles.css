@@ -22,10 +22,11 @@ header > a {
     text-decoration: none;
     cursor: pointer;
     padding: 10px;
+    border: 2px solid #241E20;
 }
 
 header > a:hover {
-    background-color: #870000c7;
+    border: 2px solid #870000c7;
     transition: ease 0.3s;
     border-radius: 8px;
 }
