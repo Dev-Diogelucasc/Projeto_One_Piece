@@ -42,6 +42,14 @@ header > a:hover {
     transition: ease 0.5s;
     border-radius: 7px;
 }
+
+a > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin: auto;
+}
+
 .fundo {
   background-image: url(../imagens/fundo2.jpg);
   background-position: center;

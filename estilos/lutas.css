@@ -43,6 +43,13 @@ header > a:hover {
     border-radius: 7px;
 }
 
+a > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin: auto;
+}
+
 .contato {
     background-color: #FDDE0A;
     color: black;

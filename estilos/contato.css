@@ -46,6 +46,13 @@ header > a:hover {
     border-radius: 9px;
 }
 
+a > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin: auto;
+}
+
 /* Estilo geral da seção de contato */
 section {
     background-color: #f9f9f9;

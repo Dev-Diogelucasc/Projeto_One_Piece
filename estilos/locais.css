@@ -41,6 +41,14 @@ header > a:hover {
     transition: ease 0.5s;
     border-radius: 7px;
 }
+
+a > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin: auto;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

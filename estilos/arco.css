@@ -46,6 +46,13 @@ header > a:hover {
     border-radius: 7px;
 }
 
+a > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin: auto;
+}
+
 .fundo {
     background-image: url(../imagens/fundo_onepiece.webp);
     background-position: center right;

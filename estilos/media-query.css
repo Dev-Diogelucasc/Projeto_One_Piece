@@ -43,3 +43,9 @@
     width: auto;
   }
 }
+
+@media screen and (min-width:1400px) {
+  .icon {
+    display: none;
+  }
+}
