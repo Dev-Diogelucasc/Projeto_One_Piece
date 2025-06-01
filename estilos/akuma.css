@@ -6,13 +6,11 @@ body {
   background-color: #f2f2f2;
   color: #333;
 }
-
 header {
   background-color: #241E20;
   color: #fff;
   padding: 1rem;
 }
-
 header > h1 {
   font-family: "Honk", system-ui;
   font-size: 2.2em;
@@ -21,7 +19,6 @@ header > h1 {
   color: white;
   margin-bottom: 20px;
 }
-
 header > a {
   float: left; 
   margin-left: 40px;
@@ -34,36 +31,31 @@ header > a {
   color: #fff;
   position: absolute; /* Travar a posição da div*/
 }
-
 header > a:hover {
   background-color: #fddd0abf;
   color: rgba(255, 255, 255, 0.715);
   transition: ease 0.5s;
   border-radius: 7px;
 }
-
 a > img {
   width: 30px;
   height: 30px;
   margin-right: 10px;
   margin: auto;
 }
-
 .fundo {
-  background-image: url(../imagens/fundo2.jpg);
+  background-image: url(../imagens/fundo_onepiece.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-
 main {
   display: grid;
   gap: 1rem;
   padding: 2rem;
 
 }
-
 .fruta {
   padding: 1.5rem;
   border-radius: 10px;
@@ -82,7 +74,6 @@ main {
   padding: 8px;
   box-shadow: 2px 3px 10px #000000ac;
 }
-
 ul {
   margin: 20px;
   list-style: none;
@@ -90,7 +81,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 li {
   background-color: white;
   margin: 8px;
@@ -102,7 +92,6 @@ li {
   justify-content: center;
   flex-direction: column;
 }
-
 li > img {
   width: 150px;
   height: 115px;
@@ -110,12 +99,10 @@ li > img {
   filter: blur(0.6px);
   transition: transform 0.7s ease;
 }
-
 li > img:hover {
   transform: scale(1.1);
   filter: none;
-}
-    
+} 
 li > span {
   margin-top: 0.8rem;
   font-size: 1rem;

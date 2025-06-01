@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
-*{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #f2f2f2;
-    color: #333;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  color: #333;
 }
-
 header {
   background-color: #241E20;
   color: #fff;
   padding: 1rem;
 }
-
 header > h1 {
   font-family: "Honk", system-ui;
   font-size: 2.2em;
@@ -25,146 +20,127 @@ header > h1 {
   color: white;
   margin-bottom: 20px;
 }
-
 header > a {
-    background-color: #FDDE0A;
-    color: #fff;
-    text-decoration: none;
-    float: left; 
-    margin-left: 80px;
-    margin-top: 30px;
-    padding: 15px;
-    border-radius: 7px;
-    cursor: pointer;
-    position: absolute;
+  background-color: #FDDE0A;
+  color: #fff;
+  text-decoration: none;
+  float: left; 
+  margin-left: 80px;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  position: absolute;
 }
-
 header > a:hover {
-    background-color: #fddd0abf;
-    color: rgba(255, 255, 255, 0.715);
-    transition: ease 0.5s;
-    border-radius: 7px;
+  background-color: #fddd0abf;
+  color: rgba(255, 255, 255, 0.715);
+  transition: ease 0.5s;
+  border-radius: 7px;
 }
-
 a > img {
   width: 30px;
   height: 30px;
   margin-right: 10px;
   margin: auto;
 }
-
 .fundo {
-    background-image: url(../imagens/fundo_onepiece.webp);
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(../imagens/fundo_onepiece.webp);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
 main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
 }
-
 .saga {
-    background-color: #fff;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-
 .saga  > h2 {
-    background-color: black;
-    color: #EF4426;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.182);
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 1.25rem;
+  background-color: black;
+  color: #EF4426;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.182);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
 }
-
 ul {
-    padding-left: 1.25rem;
+  padding-left: 1.25rem;
 }
-
 li {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.274);
-    margin-bottom: 0.5rem;
-    padding-top: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.274);
+  margin-bottom: 0.5rem;
+  padding-top: 20px;
 }
-
 .east_blue {
-    background-image: url(../imagens/arco/east_blue.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../imagens/arco/east_blue.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .alabasta {
-    background-image: url(../imagens/arco/alabasta.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../imagens/arco/alabasta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .skypiea {
-    background-image: url(../imagens/arco/skypiea.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../imagens/arco/skypiea.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
-
 .water7 {
-    background-image: url(../imagens/arco/water7.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../imagens/arco/water7.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .Thriller {
-    background-image: url(../imagens/arco/Thriller.webp);
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-image: url(../imagens/arco/Thriller.webp);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
-
 .marineford {
-    background-image: url(../imagens/arco/marineford.jpg);
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-image: url(../imagens/arco/marineford.jpg);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
-
 .homempeixe {
-    background-image: url(../imagens/arco/Ilha-dos-Homens-Peixe1.jpg);
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-image: url(../imagens/arco/Ilha-dos-Homens-Peixe1.jpg);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
-
 .dressrosa {
-    background-image: url(../imagens/arco/Dressrosa.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-image: url(../imagens/arco/Dressrosa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
-
 .wano {
-    background-image: url(../imagens/arco/wano.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-image: url(../imagens/arco/wano.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
-
 .final {
-    background-image: url(../imagens/arco/final.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 250px;
+  background-image: url(../imagens/arco/final.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 250px;
 }
 
 @media screen and (max-width: 660px) {

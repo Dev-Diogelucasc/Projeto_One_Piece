@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 *{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
-
 body {
-    background-color: #f2f2f2;
-    color: #333;
+  background-color: #f2f2f2;
+  color: #333;
 }
-
 header {
   background-color: #241E20;
   color: #fff;
   padding: 1rem;
 }
-
 header > h1 {
   font-family: "Honk", system-ui;
   font-size: 2.2em;
@@ -25,109 +22,92 @@ header > h1 {
   color: white;
   margin-bottom: 20px;
 }
-
 header > a {
-    background-color: #FDDE0A;
-    color: #fff;
-    text-decoration: none;
-    float: left; 
-    margin-left: 80px;
-    margin-top: 30px;
-    padding: 15px;
-    border-radius: 7px;
-    cursor: pointer;
-    position: absolute;
+  background-color: #FDDE0A;
+  color: #fff;
+  text-decoration: none;
+  float: left; 
+  margin-left: 80px;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  position: absolute;
 }
-
 header > a:hover {
-    background-color: #fddd0abf;
-    color: rgba(255, 255, 255, 0.715);
-    transition: ease 0.5s;
-    border-radius: 9px;
+  background-color: #fddd0abf;
+  color: rgba(255, 255, 255, 0.715);
+  transition: ease 0.5s;
+  border-radius: 9px;
 }
-
 a > img {
   width: 30px;
   height: 30px;
   margin-right: 10px;
   margin: auto;
 }
-
-/* Estilo geral da seção de contato */
 section {
-    background-color: #f9f9f9;
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
 }
-
-/* Formulário */
 section > form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-/* Rótulos dos campos */
 form > label {
-    font-weight: bold;
-    color: #444;
+  font-weight: bold;
+  color: #444;
 }
 
-/* Inputs e textarea */
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 1em;
-    width: 100%;
-    box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
 }
-
-/* Botão de envio */
 form > button {
-    padding: 12px;
-    background-color: #8E0101;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
+  padding: 12px;
+  background-color: #8E0101;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
 }
-
 form > button:hover {
-    background-color: #720404;
+  background-color: #720404;
 }
-
-/* Informações de contato adicionais */
 .contato-info {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
 }
-
 .contato-info h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
 }
-
 .contato-info p {
-    color: #555;
-    margin: 4px 0;
+  color: #555;
+  margin: 4px 0;
 }
-
 .contato-info img {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-    margin-right: 10px; 
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px; 
 }
 
 @media screen and (max-width: 660px) {
