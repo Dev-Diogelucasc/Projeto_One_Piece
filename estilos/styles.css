@@ -1,113 +1,194 @@
-/* tela 1400px*/
 
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #241E20;
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 header {
-    background-color: #241E20;
-    padding-bottom: 16px;
+  background-color: #241E20;
+  padding: 0.5rem 0;
 }
-header > img {
-    width: 150px;
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-header > a {
-    margin-left: 80px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 10px;
-    border: 2px solid #241E20;
+
+.container > img {
+  width: 120px;
+  height: auto;
 }
-header > a:hover {
-    border: 2px solid #870000c7;
-    transition: ease 0.3s;
-    border-radius: 8px;
-}
-.contato {
-    background-color: #870100;
-    color: rgba(0, 0, 0, 0.863);
-    font-weight: bold;
-    border-radius: 8px;
-    padding: 9px 20px
-}
-.contato:hover {
-    color: rgba(0, 0, 0, 0.863);
-    transition: ease 0.2s;
-}
-header > i {
-    color: #241E20;
-}
-.fundo {
-    background-image: url(../imagens/fundo2.jpg);
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-main {
-    background-color: rgba(0, 0, 0, 0.774);
-    max-width: 80%;
-    margin: auto;
-}
-main > div {
-    padding: 10px;
-}
-.titulos {
-    text-align: center;
-    background-image: url(../imagens/fundo_onepiece.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px;
-    width: 97%;
-    border-radius: 5px;
-    box-shadow: 2px 3px 10px #00000077;
-    margin: auto;
-}
-.apresentacao {
-    width: 90%;
-    margin: auto;
-    color: white;
-    line-height: 1.4em;
-    font-size: 1.06em;
-    line-height: 1.6em;
-    text-align: justify;
-}
-.personagem {
-    background-color: #b69e07;
-    width: 340px;
-    height: 300px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-}
-.personagem > img {
-    width: 250px;
-    height: 200px;
-    display: block;
-    margin: auto;  
-    border-radius: 20px;
-    filter: blur(0.6px);
-}
-.personagem > img:hover {
-transition: ease 0.5s;
-transform: scale(1.1);
-filter: none;
-}
-span {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  color: #333;
+
+.main-nav .nav-link {
+  display: none; /* Esconde os links no mobile */
+  color: white;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
   text-align: center;
+}
+
+.main-nav .icon {
+  display: block; /* Mostra o ícone no mobile */
+  font-size: 1.8rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estado responsivo do menu (ativado via JS) */
+.main-nav.responsive {
+  position: relative;
+  overflow: hidden;
+}
+
+.main-nav.responsive .nav-link {
+  display: block; /* Exibe os links verticalmente */
+}
+/* No JS, o .responsive é adicionado ao .main-nav, então organizamos os links */
+.main-nav.responsive {
+    position: absolute;
+    top: 60px; /* Ajuste conforme a altura do seu header */
+    left: 0;
+    right: 0;
+    background-color: #241E20;
+    z-index: 100;
+}
+
+.fundo {
+  background-image: url(../imagens/fundo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1.5rem 0;
+}
+
+section {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+section > h2 {
+  color: white;
+  text-align: center;
+  background-image: url(../imagens/fundo_onepiece.webp);
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 0 auto 2rem auto;
+}
+
+section > p {
+  max-width: 90%;
+  margin: auto;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #b69e07;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card figure {
+  margin: 0;
+  padding: 0;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
   display: block;
 }
-.personagem h2 {
-    padding: 10px 10px;
-    text-align: center;
+
+.card figcaption {
+  padding: 1rem;
+  color: #333;
 }
+
+.card h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
 footer {
-    background-color: #241E20;
-    color: white;
-    text-align: center;
-    padding: 20px;
+  background-color: #241E20;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* --- MEDIA QUERIES (DESKTOP) --- */
+@media screen and (min-width: 992px) {
+  .main-nav .icon {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-nav .nav-link {
+    display: block;
+  }
+  
+  .main-nav.responsive {
+      position: static;
+      background-color: transparent;
+  }
+
+  .nav-link:hover, .inicial {
+    background-color: #870100;
+    border-radius: 5px;
+  }
+  
+  .contato {
+    background-color: #870100;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .contato:hover {
+    background-color: #a10000;
+  }
+
+  .info-container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
