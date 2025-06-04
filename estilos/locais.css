@@ -49,12 +49,25 @@ header > h1 {
   margin: 0;
 }
 
-main {
-  width: 100vw;
-  height: 100vh;
-  background-image: url(../imagens/locais/mapa.webp); /* Coloque o URL da sua imagem aqui */
-  background-size: cover;
-  background-position: center;
+#map-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    cursor: grab;
+    background: #000;
+}
+
+#map {
+    background-image: url('../imagens/locais/mapa.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 4096px;
+    height: 2048px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
 }
 
 /* --- MEDIA QUERY  --- */
