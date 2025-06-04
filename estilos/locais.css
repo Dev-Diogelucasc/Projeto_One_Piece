@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
-/* --- VARIÁVEIS GLOBAIS E ESTILOS BASE --- */
-:root {
-  --cor-header: #262127;
-  --cor-texto-claro: #fff;
-  --cor-botao-voltar: #FDDE0A;
-  --cor-botao-voltar-hover: #fddd0abf;
-  --cor-titulo-grupo: #00539C;
-  --cor-nome-local: #870100;
-  --fonte-titulo: "Honk", system-ui;
-  --fonte-corpo: Arial, sans-serif;
-}
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 /* --- HEADER PADRONIZADO COM FLEXBOX --- */
@@ -60,6 +49,14 @@ header > h1 {
   margin: 0;
 }
 
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imagens/locais/mapa.webp); /* Coloque o URL da sua imagem aqui */
+  background-size: cover;
+  background-position: center;
+}
+
 /* --- MEDIA QUERY  --- */
 @media screen and (min-width: 660px) {
   header > a {
@@ -73,4 +70,4 @@ header > h1 {
   header > h1 {
     font-size: 2.2em;
   }
-}
+} 
