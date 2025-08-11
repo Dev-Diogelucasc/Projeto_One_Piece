@@ -4,7 +4,7 @@ Este é um projeto desenvolvido para a disciplina **Programação para Internet 
 
 ## 📄 Sobre
 
-O objetivo do projeto é apresentar informações, personagens e curiosidades sobre One Piece, utilizando HTML, CSS e JavaScript.
+O objetivo do projeto é apresentar informações, personagens e curiosidades sobre One Piece.
 
 ## 🚀 Acesse o site
 
